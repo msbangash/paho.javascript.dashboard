@@ -22,11 +22,11 @@
 	 -cannot publish pdfs and high resolution images
 
 - Libraries used: 
-	src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"</script>
-	src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	- src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"</script>
+	- src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
 - References
-	HiveMQ, http://hivemq.com/demos/websocket-client/
-	stackoverflow, https://stackoverflow.com/
-	Steve's Internet Guide, http://www.steves-internet-guide.com/
-	Thomas Laurenson https://www.thomaslaurenson.com
+	- HiveMQ, http://hivemq.com/demos/websocket-client/
+	- stackoverflow, https://stackoverflow.com/
+	- Steve's Internet Guide, http://www.steves-internet-guide.com/
+	- Thomas Laurenson https://www.thomaslaurenson.com
