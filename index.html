@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web-based MQTT Dashboard</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/icon.png" />
+  </head>
+  <body>
+    <div class="connection">
+      <h1>Web-based MQTT Dashboard</h1>
+      <h2><a href="https://www.linkedin.com/in/muhammad-saad-bangash-897a5216b/" target="_blank"> by Muhammad Bangash</a></title></h2> 
+      <fieldset>
+        <legend><h3>Connect to your broker</h3></legend>
+        <form id="connectForm">
+          <label for="url">Server:</label>
+          <input
+            type="text"
+            id="url"
+            placeholder="Enter URL"
+            name="url"
+            value="broker.hivemq.com"
+            required
+          />
+          <label for="port">Port:</label>
+          <input
+            type="text"
+            id="port"
+            placeholder="Enter port"
+            name="port"
+            value="8000"
+            required
+          />
+          <label for="userID">UserID:</label>
+          <input
+            type="text"
+            id="userID"
+            placeholder="Enter userID"
+            name="userID"
+            required
+          />
+
+          <button type="button" id="connect" onclick="return  MQTTconnect(); ">
+            Connect
+          </button>
+        </form>
+      </fieldset>
+      <fieldset>
+        <legend><h3>Subscribe to topic(s)</h3></legend>
+        <button type="button" id="showWindow">Add subscription</button>
+        <h5>Subscribed topic(s)</h5>
+        <p id="mysubs"></p>
+        <br />
+        <br />
+        <form id="unsubsribeForm">
+          <label for="sub_topic">Subscribed topic:</label>
+          <select name="sub_topic" id="sub_topic"></select>
+          <button
+            type="button"
+            id="unsubscribe"
+            onclick="return  unsubscribe_topics(); "
+          >
+            Unsubscribe topic
+          </button>
+        </form>
+
+        <div id="subscribeWindow" class="model">
+          <!-- Model content -->
+          <div class="model-content">
+            <span class="close" id="close">×</span>
+            <p>Subscribe</p>
+            <form id="subscribeForm">
+              <label for="topic">Topic:</label>
+              <input
+                type="text"
+                id="topic"
+                placeholder="Enter Topic"
+                name="topic"
+                required
+              />
+              <label for="qos">QoS:</label>
+              <select name="qos" id="qos">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+              </select>
+              <button
+                type="button"
+                id="subscribe"
+                onclick="return  sub_topics(); "
+              >
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend><h3>Publish to topic(s)</h3></legend>
+        <form id="publishForm" enctype="multipart/form-data">
+          <input
+            type="checkbox"
+            id="unsub"
+            name="unsub"
+            value="unsub"
+            onclick="topicOption()"
+          />
+          <label for="unsub">Enter a custom topic</label> <br />
+          <label for="post_topic" id="lbSelectTopic">Subscribed topic:</label>
+          <select name="post_topic" id="post_topic"></select>
+
+          <label for="othertopic" id="lbOthertopics" style="display: none"
+            >Enter a topic:</label
+          >
+          <input
+            type="text"
+            id="othertopic"
+            placeholder="Enter topic"
+            name="othertopic"
+            style="display: none"
+            required
+          />
+          <label for="qospublish" id="lb_qospublish" style="display: none"
+            >QoS:</label
+          >
+          <select name="qospublish" id="qospublish" style="display: none">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+
+          <label for="sms">Enter a message</label>
+          <input
+            type="text"
+            id="sms"
+            placeholder="Enter message"
+            name="sms"
+            required
+          />
+          <br />
+          <label for="file">Would you like to attach a file? </label>
+          <input type="file" id="myfile" name="myfile" accept="text/plain" />
+          <button type="button" id="publish" onclick="return  publishSMS(); ">
+            Publish
+          </button>
+        </form>
+      </fieldset>
+      <fieldset>
+        <legend><h3>Logs</h3></legend>
+        <p id="messages"></p>
+      </fieldset>
+    </div>
+    <script src="libs/mqttws31.min.js" type="text/javascript"></script>
+    <script src="libs/sweetalert.js" type="text/javascript"></script>
+    <script src="libs/download.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
