@@ -1,6 +1,4 @@
-# Web-BasedMQTTDashboard
-
-- web.simplemqttdashboard.com 
+# web.simplemqttdashboard.com
 
 - Developer's:  
          Muhammad Bangash, 
