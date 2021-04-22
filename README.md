@@ -11,12 +11,12 @@
         Department of Computer Science
 
 - New Changes:
-     -Subscribes to topic(s)
-     -Unsubscribes to topic(s)
-     -Select subscribed topic
-     -Publish files (text files, JSON, XML)
-     -Pop-up notifications
-	 -logs
+     - Subscribes to topic(s)
+     - Unsubscribes to topic(s)
+     - Select subscribed topic
+     - Publish files (text files, JSON, XML)
+     - Pop-up notifications
+     - logs
 
 - Setbacks?
 	 -cannot publish pdfs and high resolution images
