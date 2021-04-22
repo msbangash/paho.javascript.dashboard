@@ -1,15 +1,16 @@
 # Web-BasedMQTTDashboard
 
-Developer's:  
+- Developer's:  
          Muhammad Bangash, 
          Northeastern Illinois University, 
          Department of Computer Science
-Faculty Mentor: 
+	 
+- Faculty Mentor: 
 	Professor Ahmed Khaled, 
 	Northeastern Illinois University, 
         Department of Computer Science
 
-New Changes:
+- New Changes:
      -Subscribes to topic(s)
      -Unsubscribes to topic(s)
      -Select subscribed topic
@@ -17,15 +18,15 @@ New Changes:
      -Pop-up notifications
 	 -logs
 
-Setbacks?
+- Setbacks?
 	 -cannot publish pdfs and high resolution images
 
-Libraries used: 
+- Libraries used: 
 	src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"</script>
 	src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
-References
-HiveMQ, http://hivemq.com/demos/websocket-client/
-stackoverflow, https://stackoverflow.com/
-Steve's Internet Guide, http://www.steves-internet-guide.com/
-Thomas Laurenson https://www.thomaslaurenson.com
+- References
+	HiveMQ, http://hivemq.com/demos/websocket-client/
+	stackoverflow, https://stackoverflow.com/
+	Steve's Internet Guide, http://www.steves-internet-guide.com/
+	Thomas Laurenson https://www.thomaslaurenson.com
