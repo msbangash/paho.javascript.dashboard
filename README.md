@@ -26,7 +26,7 @@ MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for 
 	- Steve's Internet Guide, http://www.steves-internet-guide.com/
 	- Thomas Laurenson https://www.thomaslaurenson.com
 
-## Authors
+# Authors
 - Developer:  
 	- Muhammad Bangash, Northeastern Illinois University, Department of Computer Science
 	- https://www.linkedin.com/in/muhammad-saad-bangash-897a5216b/
@@ -34,6 +34,6 @@ MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for 
 - Faculty Mentor: 
 	- Professor Ahmed Khaled, Northeastern Illinois University, Department of Computer Science
 		
-## How to Contribute? 
+# How to Contribute? 
 Just include this README.md file to your project. 
 
