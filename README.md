@@ -3,6 +3,18 @@ MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for 
 
 # Check out the dashboard! 
   http://simplemqttdashboard.com/
+  
+# Authors
+- Developer:  
+	- Muhammad Bangash, Northeastern Illinois University, Department of Computer Science
+	- https://www.linkedin.com/in/muhammad-saad-bangash-897a5216b/
+	 
+- Faculty Mentor: 
+	- Professor Ahmed Khaled, Northeastern Illinois University, Department of Computer Science
+	- http://cs.neiu.edu/~akhaled/
+		
+# How to Contribute? 
+Just include this README.md file to your project. 
 
 ## Dashboard Functions:
 - New Changes:
@@ -26,15 +38,5 @@ MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for 
 	- Steve's Internet Guide, http://www.steves-internet-guide.com/
 	- Thomas Laurenson https://www.thomaslaurenson.com
 
-# Authors
-- Developer:  
-	- Muhammad Bangash, Northeastern Illinois University, Department of Computer Science
-	- https://www.linkedin.com/in/muhammad-saad-bangash-897a5216b/
-	 
-- Faculty Mentor: 
-	- Professor Ahmed Khaled, Northeastern Illinois University, Department of Computer Science
-	- http://cs.neiu.edu/~akhaled/
-		
-# How to Contribute? 
-Just include this README.md file to your project. 
+
 
