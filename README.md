@@ -33,6 +33,7 @@ MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for 
 	 
 - Faculty Mentor: 
 	- Professor Ahmed Khaled, Northeastern Illinois University, Department of Computer Science
+	- http://cs.neiu.edu/~akhaled/
 		
 # How to Contribute? 
 Just include this README.md file to your project. 
