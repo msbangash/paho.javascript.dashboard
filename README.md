@@ -6,9 +6,9 @@
          Department of Computer Science
 	 
 - Faculty Mentor: 
-	Professor Ahmed Khaled, 
-	Northeastern Illinois University, 
-        Department of Computer Science
+	 Professor Ahmed Khaled, 
+	 Northeastern Illinois University, 
+         Department of Computer Science
 
 - New Changes:
      - Subscribes to topic(s)
