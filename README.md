@@ -2,7 +2,7 @@
 MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for IoT applications and devices. Aside from the traditional request/response communication, MQTT protocol uses a paradigm known as publish/subscribe. Users (applications/devices) can publish or send data under certain topics. Similarly, other users can show interest in receiving updates and messages published on certain topic(s) by first subscribing. A topic is a meta-data and a short description of the communicated messages (e.g., Chicago weather, traffic updates), and users can subscribe to a wide range of topics. Spring 2021, I am adapting a 300-level course to an honors credit, fulfilling one of the curriculum requirements of the Honors Program. To adapt a course, I am expanding on what I am learning for my Computer Networks class by exploring the work of the MQTT protocol to implement a user-friendly JavaScript-based dashboard for MQTT users. Using the dashboard, a user can subscribe to a topic or a set of topics, publish a message(s), subscribe to topic(s), and view the published messages in a suitable format. The developed dashboard allows different types of messages to be published and displayed, that include JSON/XML-based content, documents, and images. 
 
 # Check out the dashboard! 
-  (web.simplemqttdashboard.com)(url)
+  http://web.simplemqttdashboard.com/
 
 ## Dashboard Functions:
 - New Changes:
