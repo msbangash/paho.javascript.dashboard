@@ -25,6 +25,7 @@ MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for 
 	- stackoverflow, https://stackoverflow.com/
 	- Steve's Internet Guide, http://www.steves-internet-guide.com/
 	- Thomas Laurenson https://www.thomaslaurenson.com
+	- https://github.com/logos
 
 # Authors
 - Developer:  
