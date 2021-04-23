@@ -19,6 +19,7 @@ MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for 
 ## Libraries used: 
 	- <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"</script>
 	- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	- <script src="download.js">https://github.com/rndme/download</script> 
 
 ## References
 	- HiveMQ, http://hivemq.com/demos/websocket-client/
