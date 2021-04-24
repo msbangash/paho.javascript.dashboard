@@ -14,7 +14,7 @@ MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for 
 	- Select subscribed topic
 	- Publish files (text files, JSON, XML)
 	- Pop-up notifications
-	- logs
+	- Logs
 
 - Setbacks?
 	- cannot unpack pdfs and high resolution images
@@ -28,12 +28,12 @@ MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for 
 	- HiveMQ, http://hivemq.com/demos/websocket-client/
 	- stackoverflow, https://stackoverflow.com/
 	- Steve's Internet Guide, http://www.steves-internet-guide.com/
-	- Thomas Laurenson https://www.thomaslaurenson.com
+	- Thomas Laurenson, https://www.thomaslaurenson.com
 	- https://github.com/logos
 
 # Authors
 - Developer:  
-	- Muhammad Bangash, Northeastern Illinois University, Department of Computer Science
+	- Muhammad Bangash, Northeastern Illinois University, Department of Computer Science & Honors Program
 	- https://www.linkedin.com/in/muhammad-saad-bangash-897a5216b/
 	 
 - Faculty Mentor: 
