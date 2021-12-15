@@ -9,15 +9,16 @@ MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for 
 
 ## Dashboard Functions:
 - New Changes:
+	- Connect to any broker like hiveMQ
 	- Subscribes to topic(s)
 	- Unsubscribes to topic(s)
-	- Select subscribed topic
-	- Publish files (text files, JSON, XML)
+	- Select multiple subscribed topics
+	- Publish messages and files like text files, JSON, XML
 	- Pop-up notifications
 	- Logs
 
 - Setbacks?
-	- cannot unpack pdfs and high resolution images
+	- sometimes cannot unpack pdfs and high resolution images
 
 ## Libraries used: 
 	- <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"</script>
@@ -36,7 +37,7 @@ MQTT is lightweight, intuitive, and easy to use messaging protocol suitable for 
 	- Muhammad Bangash, Northeastern Illinois University, Department of Computer Science & Honors Program
 	- https://www.linkedin.com/in/muhammad-saad-bangash-897a5216b/
 	 
-- Faculty Mentor: 
+- Mentor: 
 	- Professor Ahmed Khaled, Northeastern Illinois University, Department of Computer Science
 	- http://cs.neiu.edu/~akhaled/
 		
@@ -46,5 +47,3 @@ Just include this README.md file and License file to your project.
 # License 
 BSD 2-Clause License
 Copyright (c) 2021, mbangash1neiu
-
-
