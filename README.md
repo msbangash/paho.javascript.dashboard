@@ -1,4 +1,4 @@
-# Video presentation of this project / demonstration of this dashboard
+# Video presentation / demonstration of dashboard
 [![Watch the video](https://img.youtube.com/vi/990S_bKd184/default.jpg)](https://youtu.be/990S_bKd184)
 
 # About
@@ -21,8 +21,8 @@ Understand that all MQTT broker message payloads are just byte arrays at the tra
  -                       ==>publish the array to a topic
  
 ## Logic for recieving files from a topic
- -       ==> Second user recieves the byte array through Logs
- -             ==> Upon clicking, click byte array will be converted back to the original file using the library "download.js" 
+ -      ==> Second user recieves the byte array through Logs
+ -         ==> Upon clicking download, byte array converted back to original file using library "download.js" 
 
 ## All Features:
 	- Connect to any broker like hiveMQ
